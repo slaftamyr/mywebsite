@@ -1,5 +1,5 @@
 import React from "react";
- 
+
 const Certificates = () => {
   const certificates = [
     {
@@ -66,7 +66,7 @@ const Certificates = () => {
                 rel="noopener noreferrer"
                 className="btn"
               >
-                View Certificate
+                View
               </a>
             </div>
           ))}
