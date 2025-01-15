@@ -26,12 +26,24 @@ const experiences = [
     certificates: [
       {
         title: "Front-end Development Internship Certificate",
-        image: solafa,
+        image:  solafa   },
+    ],
+  },
+  {
+    id: 4,
+    role: "Intern - Front-end Development",
+    company: "intern2grow",
+    duration: "November 2024 ",
+    description: "",
+    certificates: [
+      {
+        title: "Front-end Development Internship Certificate",
+        image:    "https://media.licdn.com/dms/image/v2/D4E2DAQF1yxK1p3CO4A/profile-treasury-image-shrink_160_160/profile-treasury-image-shrink_160_160/0/1736895612438?e=1737511200&v=beta&t=zv7xMW6EA5mfKDX80V49DYuK4goSDujRQcSV0Zk85_o",
       },
     ],
   },
 ];
-
+ 
 const Experience = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 

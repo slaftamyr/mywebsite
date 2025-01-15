@@ -3,6 +3,7 @@ import osana from "../assets/osana.png";
 import wonderful from "../assets/wonderful.png";
 import cats from "../assets/catsgallery.png";
 import lemona from "../assets/LEMONA.png";
+import ALzaan from "../assets/ALzaan.png";
 const Projects = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalImage, setModalImage] = useState("");
@@ -26,7 +27,7 @@ const Projects = () => {
       title: "Cats Gallery",
       link: "https://cats-gallery-theta.vercel.app",
       description:
-        "A dynamic and responsive React application integrating APIs to deliver a delightful gallery experience for cat lovers.",
+        "A dynamic and responsive React application integrating APIs to deliver a delightful gallery experience for cat & dogs lovers.",
       image: cats,
     },
     {
@@ -35,6 +36,13 @@ const Projects = () => {
       description:
         "A beautifully designed restaurant website built with HTML and CSS, featuring an elegant layout and an inviting user interface.",
       image: lemona,
+    },
+    {
+      title: "ALzaan",
+      link: "https://a-lzaan-nbgw.vercel.app",
+      description:
+        "responsive application website built with React and tailwind css .",
+      image: ALzaan,
     },
   ];
 
@@ -58,7 +66,7 @@ const Projects = () => {
                 src={project.image}
                 alt={project.title}
                 className="project-image"
-                onClick={() => openModal(project.image)} // فتح الصورة عند النقر عليها
+                onClick={() => openModal(project.image)}  
               />
               <h4>{project.title}</h4>
               <p>{project.description}</p>
@@ -74,8 +82,7 @@ const Projects = () => {
           ))}
         </div>
       </div>
-
-      {/* Modal لفتح الصورة */}
+ 
       {isModalOpen && (
         <div className="modal" onClick={closeModal}>
           <div className="modal-content">

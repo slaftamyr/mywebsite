@@ -9,6 +9,8 @@ const Skills = () => {
     "Tailwind CSS",
     "Bootstrap",
     "Material UI",
+    "redux",
+  "SEO",
   ];
 
   return (
