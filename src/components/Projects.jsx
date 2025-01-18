@@ -4,6 +4,8 @@ import wonderful from "../assets/wonderful.png";
 import cats from "../assets/catsgallery.png";
 import lemona from "../assets/LEMONA.png";
 import ALzaan from "../assets/ALzaan.png";
+import portfolio from "../assets/portfolio.png";
+import sefa from "../assets/sefa.png";
 const Projects = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalImage, setModalImage] = useState("");
@@ -17,6 +19,13 @@ const Projects = () => {
       image: osana,
     },
     {
+      title: "Sefa Store",
+      link: "https://sefa-store.vercel.app",
+      description:
+        "An e-commerce website built with React and Vite, integrated with an external API, featuring an interactive shopping cart and responsive design using Tailwind CSS",
+      image:sefa,
+    },
+    {
       title: "Wonderful",
       link: "https://wonderful-weld.vercel.app",
       description:
@@ -24,7 +33,7 @@ const Projects = () => {
       image: wonderful,
     },
     {
-      title: "Cats Gallery",
+      title: "Cats & Dogs Gallery",
       link: "https://cats-gallery-theta.vercel.app",
       description:
         "A dynamic and responsive React application integrating APIs to deliver a delightful gallery experience for cat & dogs lovers.",
@@ -44,6 +53,14 @@ const Projects = () => {
         "responsive application website built with React and tailwind css .",
       image: ALzaan,
     },
+    {
+      title: "portfolio",
+      link: "https://esra-osman.vercel.app",
+      description:
+        "A responsive portfolio built with React &Tailwind CSS, featuring interactive and visually appealing design for a seamless user experience.",
+      image:portfolio,
+    },
+    
   ];
 
   const openModal = (image) => {
