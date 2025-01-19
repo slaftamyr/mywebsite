@@ -5,7 +5,7 @@ import cats from "../assets/catsgallery.png";
 import lemona from "../assets/LEMONA.png";
 import ALzaan from "../assets/ALzaan.png";
 import portfolio from "../assets/portfolioesra.png";
-import sefa from "../assets/sefa.png";
+import sefa from "../assets/Sefa.png";
 const Projects = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalImage, setModalImage] = useState("");
