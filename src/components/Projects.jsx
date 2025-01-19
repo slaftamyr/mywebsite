@@ -4,7 +4,7 @@ import wonderful from "../assets/wonderful.png";
 import cats from "../assets/catsgallery.png";
 import lemona from "../assets/LEMONA.png";
 import ALzaan from "../assets/ALzaan.png";
-import portfolio from "../assets/portfolio.png";
+import portfolio from "../assets/portfolioesra.png";
 import sefa from "../assets/sefa.png";
 const Projects = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
