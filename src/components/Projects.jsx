@@ -4,7 +4,7 @@ import wonderful from "../assets/wonderful.png";
 import cats from "../assets/catsgallery.png";
 import lemona from "../assets/LEMONA.png";
 import ALzaan from "../assets/ALzaan.png";
-import portfolio from "../assets/portfolioesra.png";
+ 
 import sefa from "../assets/Sefa.png";
 const Projects = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -53,13 +53,7 @@ const Projects = () => {
         "responsive application website built with React and tailwind css .",
       image: ALzaan,
     },
-    {
-      title: "portfolio",
-      link: "https://esra-osman.vercel.app",
-      description:
-        "A responsive portfolio built with React &Tailwind CSS, featuring interactive and visually appealing design for a seamless user experience.",
-      image:portfolio,
-    },
+
     
   ];
 
